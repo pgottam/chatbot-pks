@@ -3,14 +3,12 @@ A machine learning chatbot is implemented in python and hosted on docker .
 
 #### A web implementation of Chatbot using Flask.
 
-### Running locally  
-Build the image
-docker login
+### Running the bot image locally   
+<li> docker login
 
-docker pull -t praveengottam/chatbot
+<li> docker pull -t praveengottam/chatbot
 
-Run the image
-docker run --rm -p 5000:5000 --name chatbot praveengottam/chatbot
+<li> docker run --rm -p 5000:5000 --name chatbot praveengottam/chatbot
 
 Chat will be live at [http://localhost:5000/](http://localhost:5000/)
 
